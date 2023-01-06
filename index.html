@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      .newsletter {
+        font-size: 17px;
+        margin: 15px;
+        text-align: center;
+      }
+
+      .testimonials {
+        padding: 5px;
+        border: solid 1px gray;
+      }
+
+      h2 {
+        font-weight: 200;
+      }
+
+      .features {
+        text-align: center;
+        margin: 2px auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="75"
+          height="50"
+          fill="currentColor"
+          class="bi bi-airplane"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z"
+          />
+        </svg>
+
+        <h1 class="bold me-5 mt-2 lead">Expedition World</h1>
+
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link active">Home</a>
+
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Places
+              </button>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >New York City, United States</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">London, United Kingdom</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Ottowa, Canada</a></li>
+                <li><a class="dropdown-item" href="#">Seoul, Korea</a></li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                About
+              </button>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Our Story</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Mission, Vision & Values</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="dropdown">
+              <button
+                class="btn dropdown-toggle"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Contact Us
+              </button>
+
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="#">Call: 01869 324 328</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#"
+                    >Email: info@ExpeditionWorld.co.uk</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="navbar-nav ms-auto">
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input
+                type="search"
+                class="form-control form-control-dark"
+                placeholder="Search..."
+                aria-label="Search"
+              />
+            </form>
+            <a href="#" class="nav-item nav-link">Register</a>
+            <a href="#" class="nav-item nav-link">Login</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Hero -->
+    <img src="img/hero.jpg" class="hero img-fluid" alt="Hero image" />
+    <!-- Hero -->
+
+    <!-- Vision Statement -->
+    <div class="container text-center border-bottom">
+      <h2 class="m-5">Our Vision</h2>
+      <p>
+        We want to bring together a growing community of people committed to
+        traveling and help shape the adventure and eco-tourism industry as it
+        grows. In response to travelers' desires, our tour operators and travel
+        advisors are increasingly working to ensure their experiences provide an
+        unforgettable journey around the world.
+      </p>
+    </div>
+    <!-- Vision Statement -->
+
+    <!-- Features -->
+    <h2 class="text-center m-5">Popular Destinations</h2>
+    <div class="features container row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="img/p3.jpg" class="card-img-top" alt="image" />
+          <div class="card-body">
+            <h5 class="card-title">Sydney, Australia</h5>
+            <button class="btn btn-outline-primary">More info</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/p4.jpg" class="card-img-top" alt="image" />
+          <div class="card-body">
+            <h5 class="card-title">Taipei, Taiwan</h5>
+            <button class="btn btn-outline-primary">More info</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/p5.jpg" class="card-img-top" alt="image" />
+          <div class="card-body">
+            <h5 class="card-title">Mombasa, Kenya</h5>
+            <button class="btn btn-outline-primary">More info</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card">
+          <img src="img/p1.jpg" class="card-img-top" alt="image" />
+          <div class="card-body">
+            <h5 class="card-title">Auckland, New Zealand</h5>
+            <button class="btn btn-outline-primary">More info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Features -->
+
+    <!-- Testimonials -->
+    <div class="row row-cols-lg-1 g-4 m-3 text-center">
+      <div class="testimonials col bg-light">
+        <div class="d-inline-flex justify-content-center"></div>
+        <p>
+          Very knowledgable and helpful. I've arranged the best trip and can't
+          wait for my holiday!
+        </p>
+        <p class="text-muted">Nora</p>
+      </div>
+
+      <div class="testimonials col bg-light">
+        <div class="d-inline-flex justify-content-center"></div>
+        <p>
+          Quick responses by phone and email. The website is efficient and
+          provides all the information needed.
+        </p>
+        <p class="text-muted">Kate</p>
+      </div>
+
+      <div class="testimonials col bg-light">
+        <div class="d-inline-flex justify-content-center"></div>
+        <p>
+          I continue to sign up for Expedition World. They are good trips and
+          reasonably priced.
+        </p>
+        <p class="text-muted">Sarah Adams</p>
+      </div>
+    </div>
+    <!-- Testimonials -->
+
+    <!-- Newsletter -->
+    <form
+      class="container m-5"
+      action="https://formspree.io/f/{form_id}"
+      method="post"
+    >
+      <div class="row justify-content-center">
+        <h3 class="newsletter">Please sign up here for our newsletter</h3>
+
+        <div class="col-sm-3 my-1">
+          <input
+            type="text"
+            class="form-control"
+            id="inlineFormInputName"
+            placeholder="Name"
+          />
+        </div>
+
+        <div class="col-sm-3 my-1">
+          <input
+            type="text"
+            class="form-control"
+            id="inlineFormInputName"
+            placeholder="Email"
+          />
+        </div>
+
+        <div class="col-auto my-1">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+    <!-- Newsletter -->
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <ul class="nav justify-content-center pt-2">
+        <li>
+          <a href="#" class="nav-link text-muted">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-muted">FAQs</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-muted">Privacy Policy</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link text-muted">Terms & Conditions</a>
+        </li>
+      </ul>
+      <hr />
+      <div class="footer-copyright text-center pb-3 text-muted">
+        <span>&copy</span>ExpeditionWorld
+      </div>
+    </footer>
+    <!-- Footer -->
+  </body>
+</html>
