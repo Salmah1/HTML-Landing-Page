@@ -1,6 +1,6 @@
 # Link
 
-https://precious-concha-26b1b2.netlify.app/
+https://admirable-cassata-26ac1d.netlify.app/
 
 # Landing page
 
