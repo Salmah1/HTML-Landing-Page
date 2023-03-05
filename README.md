@@ -1,13 +1,10 @@
-# Link
+# Landing Page
+
+### Link
 
 https://admirable-cassata-26ac1d.netlify.app/
 
-# Landing page
-
-Use Bootstrap to develop a landing page complete with contact details, products or services you offer, customer testimonials, 
-pictures of the product or service, and any other detail that is relevant.
-
-# Requirements
+### Requirements
 
     •	Headline
     •	Logo or Profile Picture
